@@ -2,13 +2,13 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# Anomalies AI
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This project is about the use of AI methods that can identify anomalies in scanned images of vehicles and cargos for illegal smuggling of contraband goods such as drugs, arms and explosives into the country.
 
 
 ## Background
