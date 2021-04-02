@@ -28,16 +28,14 @@ The process will be to generate a training and testing datasets from the scanned
 
 ## Challenges
 
-The solution does not solve the broader aspect of the challenges such as profiling, identify relationships and patterns based on attributes such as the driver, vehicle, goods, origin and destination address in order to deduce a high or low risk profile. This area can potentially be expanded in future using other AI methods.
+The solution does not solve the broader aspect of the challenges such as profiling, identifying relationships and patterns based on attributes such as the driver, vehicle, goods, origin and destination address in order to deduce a high or low risk profile. This area can potentially be expanded in future using other AI methods.
 
 One of the potential limitations could be the current scanning technology. Or in other words, the project might be further enhanced with an upgrade to the current scanning technology that can generate more subtleties in scanned images which then might aid in improving the accurancy of the anomalies classifier.
 
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-The project can grow beyond vehicles to freight cargo by sea or air. What we need is to work with the relevant maritime, port and aviation authorities 
-
+This project can grow beyond vehicles at the land crossing to identifying anomalies in freight cargo by sea or air. What we need is to work with the relevant Singapore maritime, port and aviation authorities to recreate the anomalies classifier based on their challenges, needs and datasets.
 
 ## Acknowledgments
 
