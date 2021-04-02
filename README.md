@@ -52,28 +52,26 @@ main()
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The data sources will be the repository of scanned images collected by the ICA. They will be used for training and testing a neural network to identify the anomalies. 
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The process will be to generate a training and testing datasets from the scanned images, create the anomalies classifier, train and test the model, continue to iteriate and finetune the classifier.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The project does not solve the broader aspect of the problem such as profiling and identify relationships and patterns so that based on the driver, vehicle, goods, origin addresss and destination address, we might be able to deduce a high or low risk profile. This area can be expanded in future using other AI methods.
+
+One of the potential limitations could be the current scanning technology. Or in other words, the project might be further enhanced with an upgrade to the current scanning technology that can generate more subtleties in scanned images which then might aid in improving the accurancy of the anomalies classifier.
+
 
 ## What next?
 
 How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+The project can grow beyond vehicles to freight cargo by sea or air. What we need is to work with the relevant maritime, port and aviation authorities 
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* https://www.elementsofai.com/
+* https://www.ica.gov.sg/docs/default-source/ica/stats/annual-stats-report/ica-annual-statistics-2020.pdf
+* https://www.ica.gov.sg/news-and-publications/media-releases/media-release/more-than-3-000-cartons-of-duty-unpaid-cigarettes-found-hidden-in-prime-mover-and-bus-at-tuas-checkpoint
+* https://www.ica.gov.sg/news-and-publications/media-releases/media-release/more-than-11180-cartons-of-duty-unpaid-cigarettes-detected-at-pasir-panjang-scanning-station
