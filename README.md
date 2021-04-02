@@ -13,7 +13,9 @@ My idea for this project is about the use of AI methods that can identify anomal
 
 ## Background
 
-The land border between Singapore and Malaysia is one of the busiest in the the world, with a few hundred thousand people and vehicles crossing everyday. One of the key challenges faced is the illegal smuggling of contraband goods. In 2019, 92,000 contraband cases were detected and that averaged to about 252 cases of illegal smuggling everyday. With a shrinking workforce and smugglers finding new ways to evade the border security checks, it has become a real daily challenge for the Singapore border security authority. To overcome these challenges, they work with international partners and benchmark themselves against the best technology available to keep Singapore's borders safe.
+The land border between Singapore and Malaysia is one of the busiest in the the world, with a few hundred thousand people and vehicles crossing everyday. One of the key challenges faced is the illegal smuggling of contraband goods. In 2019, 92,000 contraband cases were detected and that averaged to about 252 cases of illegal smuggling everyday. 
+
+With a shrinking workforce and smugglers finding new ways to evade the border security checks, it has become a real daily challenge for the Singapore border security authority. To overcome these challenges, they work with international partners and benchmark themselves against the best technology available to keep Singapore's borders safe.
 
 ## How is it used?
 
