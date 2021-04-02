@@ -8,34 +8,25 @@ Final project for the Building AI course
 
 ## Summary
 
-This project is about the use of AI methods that can identify anomalies in scanned images of vehicles and cargos for illegal smuggling of contraband goods such as drugs, arms and explosives into the country.
+My idea for this project is about the use of AI methods that can identify anomalies in scanned images of vehicles and cargos for illegal smuggling of contraband goods such as drugs, arms and explosives across borders.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+The land border between Singapore and Malaysia is one of the busiest in the the world, with a few hundred thousand people and vehicles crossing everyday. One of the key challenges faced is the illegal smuggling of contraband goods. In 2019, 92,000 contraband cases were detected and that averaged to about 252 cases of illegal smuggling everyday. With a shrinking workforce and smugglers finding new ways to evade the border security checks, it has become a real daily challenge for the Singapore border security authority. To overcome these challenges, they work with international partners and benchmark themselves against the best technology available to keep Singapore's borders safe.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-
-
+Our solution will detect and display any anomalies from the scanned images of vehicles and cargos. The solution will be integrated with the Singapore border security authority systems. Upon the generation of the scanned images of the vehicles and goods in the Singapore border security authority systems, the scanned images will be feeded to our solution and the results will be feeded back to the systems via integrated API services. The enforcement officers will have the scanned images and anomalies displayed side by side under the same systems and interfaces.
 
 ## Data sources and AI methods
-The data sources will be the repository of scanned images collected by the ICA. They will be used for training and testing a neural network to identify the anomalies. 
+The data sources will be the repository of scanned images collected by the Singapore border security authority systems. They will be used for training and testing a neural network to identify the anomalies. 
 
-The process will be to generate a training and testing datasets from the scanned images, create the anomalies classifier, train and test the model, continue to iteriate and finetune the classifier.
+The process will be to generate a training and testing datasets from the scanned images, create the anomalies classifier, train and test the model, continue to work with the Singapore border security authority to iteriate and finetune the classifier.
 
 ## Challenges
 
-The project does not solve the broader aspect of the problem such as profiling and identify relationships and patterns so that based on the driver, vehicle, goods, origin addresss and destination address, we might be able to deduce a high or low risk profile. This area can be expanded in future using other AI methods.
+The solution does not solve the broader aspect of the challenges such as profiling, identify relationships and patterns based on attributes such as the driver, vehicle, goods, origin and destination address in order to deduce a high or low risk profile. This area can potentially be expanded in future using other AI methods.
 
 One of the potential limitations could be the current scanning technology. Or in other words, the project might be further enhanced with an upgrade to the current scanning technology that can generate more subtleties in scanned images which then might aid in improving the accurancy of the anomalies classifier.
 
@@ -49,6 +40,7 @@ The project can grow beyond vehicles to freight cargo by sea or air. What we nee
 ## Acknowledgments
 
 * https://www.elementsofai.com/
+* https://www.straitstimes.com/singapore/tech-boost-for-singapores-border-security
 * https://www.ica.gov.sg/docs/default-source/ica/stats/annual-stats-report/ica-annual-statistics-2020.pdf
 * https://www.ica.gov.sg/news-and-publications/media-releases/media-release/more-than-3-000-cartons-of-duty-unpaid-cigarettes-found-hidden-in-prime-mover-and-bus-at-tuas-checkpoint
 * https://www.ica.gov.sg/news-and-publications/media-releases/media-release/more-than-11180-cartons-of-duty-unpaid-cigarettes-detected-at-pasir-panjang-scanning-station
